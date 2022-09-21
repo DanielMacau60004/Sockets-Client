@@ -3,7 +3,7 @@ from socket import *
 clientSocket = socket(AF_INET, SOCK_DGRAM)
 
 serverName = "localhost"
-serverPort = 25565
+serverPort = 12000
 
 message = input("Input lowercase sequence: ")
 
